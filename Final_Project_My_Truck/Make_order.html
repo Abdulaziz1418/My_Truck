@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <title>Orders</title>
+</head>
+<style>
+#submit{
+    color: whitesmoke;
+}
+#orders{
+  color: whitesmoke;
+}
+p { 
+    color: #1565c0; 
+    font-family: 'Droid serif', serif; 
+    font-size: 36px; font-weight: 400; 
+    font-style: italic; 
+    line-height: 44px; 
+    margin: 0 0 12px; 
+    text-align: center; }
+
+
+a {
+  color: #58b85d; 
+    font-family: 'Droid serif', serif; 
+    font-size: 36px; font-weight: 400; 
+    font-style: italic; 
+    line-height: 44px; 
+    margin: 0 0 12px; 
+    text-align: center; 
+    }
+
+
+
+
+        </style>
+<body class="card-panel #b3e5fc light-blue lighten-4" id="body">
+
+    <nav>
+        <div class="nav-wrapper #1565c0 blue darken-3">
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="/Users/3zoz/Documents/Final_Project/Make_order.html">Make & Find Order</a></li>
+            <li><a href="/Users/3zoz/Documents/Final_Project/Map.html">Map</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix"></i>
+              <input id="name"   type="text" class="validate">
+              <label for="name">Full Name</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="prefix"></i>
+              <input id="phone" id="phone" type="text" class="validate">
+              <label for="phone">Phone</label>
+            </div>
+            
+          </div>
+          <div class="input-field col s6">
+            <i class="prefix"></i>
+            <input id="Order" id="order" type="text" class="validate">
+            <label for="Order">What is your order?</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="prefix"></i>
+            <input id="location" type="text" class="validate">
+            <label for="location">What is your location?</label>
+       
+      
+        </form>
+      </div>
+    </div>
+<br>
+
+    <button type="submit" id="submit" class="btn waves-effect waves-ligh #1565c0 blue darken-3">Submit</button>    <p id="para"></p>
+
+    <button type="submit" id="orders" class="btn waves-effect waves-ligh #1565c0 blue darken-3">Show Orders</button>
+
+
+<br>
+<br>
+<div id="listOrder">
+    <br>
+  
+   <br>
+   <br>
+   <br>
+  </div>
+    
+
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+  
+</body>
+
+</html>

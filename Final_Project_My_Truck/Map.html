@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Map</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+             
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        #map {
+            border: 2px solid #333;
+            width: 1000px;
+            height: 700px;
+            
+        }
+        
+        #btn{
+            color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body class="card-panel #b3e5fc light-blue lighten-4">
+  
+    
+     
+
+    <div id="map"></div>
+    <br><br>
+    <button type="submit" id="btn" class="btn waves-effect waves-ligh #1565c0 blue darken-3">Back</button>
+   <br>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+<script>
+        $('#btn').click(function(){
+            location.replace("/Users/3zoz/Documents/Final_Project/Make_order.html")
+    
+    
+        })
+    </script>
+
+</html>
